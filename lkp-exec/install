@@ -226,10 +226,10 @@ install_packages() {
 		fi
 	fi
 
-	$LKP_SRC/distro/installer/$distro $generic_packages || {
-		echo "Cannot install some packages in $LKP_SRC/distro/depends/${script}"
-		exit 1
-	}
+#	$LKP_SRC/distro/installer/$distro $generic_packages || {
+#		echo "Cannot install some packages in $LKP_SRC/distro/depends/${script}"
+#		exit 1
+#	}
 }
 
 build_install_benchmarks() {
